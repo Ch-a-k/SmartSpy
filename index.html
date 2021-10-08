@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart SPY</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxs-hide icon"></i>
+        <div class="logo_name"><a href="index.html">Smart SPY</a></div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search..." />
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Tasks</span>
+          </a>
+          <span class="tooltip">Tasks</span>
+        </li>
+        <li>
+          <a href="tariffs.html">
+            <i class="bx bx-cart-alt"></i>
+            <span class="links_name">Tariffs</span>
+          </a>
+          <span class="tooltip">tariffs</span>
+        </li>
+        <li></li>
+        <li>
+          <a href="invite.html">
+            <i class="bx bx-user"></i>
+            <span class="links_name">Invite friends</span>
+          </a>
+          <span class="tooltip">Invite friends</span>
+        </li>
+        <li>
+          <a href="faq.html">
+            <i class="bx bx-help-circle"></i>
+            <span class="links_name">F.A.Q.</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="bx bx-cog"></i>
+            <span class="links_name">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <img src="Img/profile.jpg" alt="profileImg" />
+            <div class="name_job">
+              <div class="name">Alrik Njordskjeld</div>
+              <div class="job">User</div>
+            </div>
+          </div>
+          <a href="#">
+            <i class="bx bx-log-out" id="log_out"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- HOME SECTION -->
+
+    <section class="home-section">
+      <a href="#" class="btn">
+        <i class="bx bxs-hide"></i><span class="btn_name">Add new task</span>
+      </a>
+      <!-- tasks -->
+      <ul>
+        <li class="task">
+          <div class="grid_item task_first">
+            <i class="bx bxl-instagram-alt"></i>
+          </div>
+          <div class="grid_item task_second">
+            <div class="task_main_name">Ch_a_k</div>
+            <div class="task_main_status">
+              <div class="stopped">Stopped</div>
+              <div class="notifications"><a href="#">25 notifications</a></div>
+            </div>
+          </div>
+          <div class="grid_item task_third">
+            <a href="#" style="font-size: 36px">
+              <i class="bx bx-play"></i>
+            </a>
+            <a href="#"><i class="bx bx-cog"></i></a>
+            <a href="#"><i class="bx bx-trash"></i></a>
+          </div>
+        </li>
+        <!-- 2 task -->
+        <li class="task">
+          <div class="grid_item task_first">
+            <i class="bx bxl-telegram"></i>
+          </div>
+          <div class="grid_item task_second">
+            <div class="task_main_name">Ch_a_k</div>
+            <div class="task_main_status">
+              <div class="launched">Launched</div>
+              <div class="notifications">0 notifications</div>
+            </div>
+          </div>
+          <div class="grid_item task_third">
+            <a href="#" style="font-size: 36px"><i class="bx bx-pause"></i></a>
+            <a href="#"><i class="bx bx-cog"></i></a>
+            <a href="#"><i class="bx bx-trash"></i></a>
+          </div>
+        </li>
+        <!-- 3 task -->
+        <li class="task">
+          <div class="grid_item task_first">
+            <i class="bx bxl-vk"></i>
+          </div>
+          <div class="grid_item task_second">
+            <div class="task_main_name">Ch_a_k</div>
+            <div class="task_main_status">
+              <div class="launched">Launched</div>
+              <div class="notifications">0 notifications</div>
+            </div>
+          </div>
+          <div class="grid_item task_third">
+            <a href="#" style="font-size: 36px"><i class="bx bx-pause"></i></a>
+            <a href="#"><i class="bx bx-cog"></i></a>
+            <a href="#"><i class="bx bx-trash"></i></a>
+          </div>
+        </li>
+        <!-- 4 task -->
+        <li class="task">
+          <div class="grid_item task_first">
+            <i class="bx bxl-facebook-square"></i>
+          </div>
+          <div class="grid_item task_second">
+            <div class="task_main_name">Ch_a_k</div>
+            <div class="task_main_status">
+              <div class="launched">Launched</div>
+              <div class="notifications">0 notifications</div>
+            </div>
+          </div>
+          <div class="grid_item task_third">
+            <a href="#" style="font-size: 36px"><i class="bx bx-pause"></i></a>
+            <a href="#"><i class="bx bx-cog"></i></a>
+            <a href="#"><i class="bx bx-trash"></i></a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
