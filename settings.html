@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart SPY</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Line awesome icons CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxs-hide icon"></i>
+        <div class="logo_name" style="user-select: none">Smart SPY</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <!-- <li>
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search..." />
+          <span class="tooltip">Search</span>
+        </li> -->
+        <li>
+          <a href="index.html">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Tasks</span>
+          </a>
+          <span class="tooltip">Tasks</span>
+        </li>
+        <li>
+          <a href="tariffs.html">
+            <i class="bx bx-cart-alt"></i>
+            <span class="links_name">Tariffs</span>
+          </a>
+          <span class="tooltip">tariffs</span>
+        </li>
+        <li></li>
+        <li>
+          <a href="invite.html">
+            <i class="bx bxs-user-plus"></i>
+            <span class="links_name">Invite friends</span>
+          </a>
+          <span class="tooltip">Invite friends</span>
+        </li>
+        <li>
+          <a href="faq.html">
+            <i class="bx bx-help-circle"></i>
+            <span class="links_name">F.A.Q.</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="bx bx-cog"></i>
+            <span class="links_name">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <img src="Img/profile.jpg" alt="profileImg" />
+            <div class="name_job">
+                <div class="name">test@smartspy.io</div>
+              <div class="job">Spy</div>
+            </div>
+          </div>
+          <a href="#">
+            <i class="bx bx-log-out" id="log_out"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- HOME SECTION -->
+
+    <section class="home-section">
+      <div class="title">
+        <h3>Settings</h3>
+        <p>
+          We have made personal settings for you, so that it would be pleasant
+          for you to work in a comfortable atmosphere. We hug you.
+        </p>
+      </div>
+      <div class="settings_wrapper">
+        <!-- Language  -->
+        <h3>Choose language</h3>
+        <div class="settingsBlock">
+            <select class="select-css">
+                <option>English</option>
+                <option>Russian</option>
+              </select>
+          </div>
+                    
+        </div>
+        <!-- AMO CRM -->
+        <h3>AMO CRM Integration</h3>
+        <div class="settingsBlock">
+          <div class="amoEmail settingsInput">
+            <div class="settingsBlock__title">Email</div>
+            <input
+              type="email"
+              class="text-form"
+              name="email"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="token settingsInput">
+            <div class="settingsBlock__title">Token</div>
+            <input
+              type="text"
+              class="text-form"
+              name="token"
+              placeholder="Enter token"
+            />
+          </div>
+          <div class="btn">Save</div>          
+        </div>
+        <!-- e-mail -->
+        <h3>Change e-mail</h3>
+        <div class="settingsBlock">
+          <div class="yourEmail settingsInput">
+            <div class="settingsBlock__title">Your e-mail</div>
+            <input
+              type="email"
+              class="text-form"
+              name="email"
+              placeholder="Enter the current e-mail"
+            />
+          </div>
+          <div class="newEmail settingsInput">
+            <div class="settingsBlock__title">New e-mail</div>
+            <input
+              type="email"
+              class="text-form"
+              name="email"
+              placeholder="Enter a new e-mail"
+            />
+          </div>
+          <div class="btn">Save</div>
+          <div class="twofactor_wrapper">
+            <input type="checkbox" id="twofactor" name="twofactor">
+            <label for="twofactor" class="2fa">Two-factor authentication</label>
+          </div>
+        </div>
+
+        <!-- password -->
+        <h3>Change password</h3>
+        <div class="settingsBlock">
+          <div class="yourPassword settingsInput">
+            <div class="settingsBlock__title">Your password</div>
+            <input
+              type="password"
+              class="text-form"
+              name="password"
+              placeholder="Enter the current password"
+            />
+          </div>
+          <div class="newPassword settingsInput">
+            <div class="settingsBlock__title">New password</div>
+            <input
+              type="password"
+              class="text-form"
+              name="password"
+              placeholder="Enter a new password"
+            />
+          </div>
+          <div class="btn">Save</div>          
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
